@@ -32,6 +32,7 @@
 - Поддержка bulk-операций для больших объемов (можно добавить)
 
 ## Структура проекта
+```plaintext 
 elasticsearch-sync/
 ├── app/
 │ ├── main.py # основной цикл синхронизации
@@ -43,6 +44,7 @@ elasticsearch-sync/
 │ └── last_sync.txt # время последней синхронизации
 ├── requirements.txt
 └── Dockerfile
+``` 
 
 ## Переменные окружения
 
