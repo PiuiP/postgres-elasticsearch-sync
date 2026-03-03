@@ -50,8 +50,8 @@ elasticsearch-sync/
 
 | Переменная | Описание | Значение по умолчанию |
 |------------|----------|----------------------|
-| `POSTGRES_DB_URL` | URL подключения к PostgreSQL | |
-| `ELASTICSEARCH_URL` | URL Elasticsearch | |
+| `POSTGRES_DB_URL` | URL подключения к PostgreSQL | - |
+| `ELASTICSEARCH_URL` | URL Elasticsearch | - |
 | `SYNC_INTERVAL_SECONDS` | Интервал синхронизации (в секундах) | `30` |
 | `LAST_SYNC_FILE` | Файл для хранения времени последней синхронизации | `last_sync.txt` |
 
